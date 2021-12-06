@@ -1,5 +1,13 @@
 # Dataverse Dataset Exporter
 
+### Step 0 use python 3.7+ and pyDataverse 0.2.1
+Please be noted that latest version of pyDataverse 0.3.x is not backwards compatible. We stick to `0.2.1`. 
+
+Install all the required packets
+```shell
+pip install -r requirements.txt
+```
+
 ### Step 1 copy and rename sample-dvconfig.py to dvconfig.py
 ```shell
 cp sample-dvconfig.py dvconfig.py
