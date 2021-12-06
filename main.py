@@ -168,5 +168,9 @@ def get_query_string(ds_id: str, export_format=ExportFormats.json_ld) -> str:
 
 
 if __name__ == '__main__':
+    '''export all the datasets from specific dataverse to default format json_ld'''
     export_datasets_dataverse('liss_dc')
-
+    '''export single dataset to default format json_ld'''
+    # export_dataset('oai:11.32332/aabb-ccdd-eff')
+    '''export list of datasets to default format json_ld'''
+    # export_datasets(['oai:11.32332/aabb-ccdd-eff1', 'oai:11.32333/aabb-ccdd-eff2', 'oai:11.32334/aabb-ccdd-eff3'...])
