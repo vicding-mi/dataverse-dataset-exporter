@@ -1,10 +1,8 @@
 .idea
-.idea/*
 
 __pycache__
-__pycache__/*
 
-output
-output/*
+output/**
+!output/.gitkeep
 
 dvconfig.py
