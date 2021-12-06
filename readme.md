@@ -12,8 +12,7 @@ pip install -r requirements.txt
 ```shell
 cp sample-dvconfig.py dvconfig.py
 ```
-
-### Step 2 adjust the content of the newly created dvconfig.py
+Adjust the content of the newly created dvconfig.py
 ```python
 base_url = 'https://dataverse-url-without-trailing-back-slash.com'
 api_token = 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx'
@@ -24,7 +23,7 @@ output_folder = 'output'
 * `api_token` is the _super user_ token of your Dataverse user. 
 * `output_folder` is the local folder on your computer within the working directory
 
-### Step 3 adjust the main.py file and run
+### Step 2 adjust the main.py file and run
 Adjust the script according to your own need
 ```python
 ...
@@ -44,7 +43,7 @@ uncomment ONE of the statements below according to your needs
 - `export_datasets(['oai:11.32332/aabb-ccdd-eff1', 'oai:11.32333/aabb-ccdd-eff2', 'oai:11.32334/aabb-ccdd-eff3'...])` - 
 export datasets by list of PIDs
 
-You can as well indicate the export format, while the default one is json-ld
+### You can as well indicate the export format, while the default one is json-ld
 
 Available formats listed below
 ```python
